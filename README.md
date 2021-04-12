@@ -8,3 +8,14 @@ publishing to Kafka for persistent delivery of messages into PySpark for further
 processed data is then fed into output Kafka topic which is inturn consumed by Nifi and stored in
 HDFS .A Hive external table is created on top of HDFS processed data for which the process is
 Orchestrated using Airflow to run for every time interval. Finally KPIs are visualised in tableau.
+
+* Tools used
+-------------------------------
+1. Nifi -nifi-1.10.0
+2. Hadoop -hadoop_2.7.3
+3. Hive-apache-hive-2.1.0
+4. Spark-spark-2.4.5
+5. Zookeeper-zookeeper-2.3.5
+6. Kafka-kafka_2.11-2.4.0
+7. Airflow-airflow-1.8.1
+8. Tableau
