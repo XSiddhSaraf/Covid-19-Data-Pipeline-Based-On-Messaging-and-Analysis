@@ -9,7 +9,7 @@ processed data is then fed into output Kafka topic which is inturn consumed by N
 HDFS .A Hive external table is created on top of HDFS processed data for which the process is
 Orchestrated using Airflow to run for every time interval. Finally KPIs are visualised in tableau.
 
-![Alt text](download.png?raw=true "Title")
+![Alt text](Architecture.png?raw=true "Title")
 
 * Tools used
 -------------------------------
@@ -21,3 +21,7 @@ Orchestrated using Airflow to run for every time interval. Finally KPIs are visu
 6. Kafka-kafka_2.11-2.4.0
 7. Airflow-airflow-1.8.1
 8. Tableau
+
+* Visualization using Tableau
+---------------------------------------
+![Alt text](visualization.jpg?raw=true "Title")
